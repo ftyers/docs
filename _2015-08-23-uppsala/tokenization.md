@@ -12,7 +12,7 @@ _(Chris Manning, Francis Tyers, Hèctor Martínez Alonso, Huner Kaşıkara, Aibe
 
 Here we define a token as a space delimited sequence of characters.
 
-In CoNLL-U format, there is a restriction that "Fields must not contain space characters.".[http://universaldependencies.github.io/docs/format.html] This is problematic for a number of languages, as a word may consist of more than one token.
+In CoNLL-U format, there is a restriction that "Fields must not contain space characters.".[1](http://universaldependencies.github.io/docs/format.html) This is problematic for a number of languages, as a word may consist of more than one token.
 
 ## Outcome
 
@@ -24,7 +24,7 @@ was that as CoNLL-U format is tab-separated, it would not be problematic to allo
 
 ### Vietnamese
 
-"As a result of influence from the Chinese writing system, each syllable in Vietnamese is written separately as if it were a word. In the past, syllables in multisyllabic words were concatenated with hyphens, but this practice had died out, and hyphenation is now reserved for foreign borrowings." [https://en.wikipedia.org/wiki/Vietnamese_alphabet#Structure]
+"As a result of influence from the Chinese writing system, each syllable in Vietnamese is written separately as if it were a word. In the past, syllables in multisyllabic words were concatenated with hyphens, but this practice had died out, and hyphenation is now reserved for foreign borrowings."[2](https://en.wikipedia.org/wiki/Vietnamese_alphabet#Structure)
 
     Đảng  Cộng⎵sản  Việt⎵Nam
     Party Communist Vietnam
@@ -32,7 +32,7 @@ was that as CoNLL-U format is tab-separated, it would not be problematic to allo
     Danh⎵sách      quốc⎵gia  xã⎵hội⎵chủ⎵nghĩa
     List.of.names  state     socialist
 
-In a wordlist for Vietnamese extracted from Wiktionary,[https://svn.code.sf.net/p/apertium/svn/incubator/apertium-vie/dev/vie.speling.txt] over a third of headwords were multisyllabic.
+In a wordlist for Vietnamese extracted from Wiktionary,[3](https://svn.code.sf.net/p/apertium/svn/incubator/apertium-vie/dev/vie.speling.txt) over a third of headwords were multisyllabic.
 
 ### Tuvan
 
