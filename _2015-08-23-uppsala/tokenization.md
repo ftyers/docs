@@ -69,10 +69,47 @@ But:
 
     "Bread existing [is] QST?", "Is there bread?"
 
+For the Tatar and Kyrgyz examples we can use, for example:
+
+    1       Нан       нан     NOUN
+    2-3     барбы     _       _ 
+    2       бар       бар     ADJ
+    3       бы        бы      PART
+    4       ?         ?       PUNCT
+
+or:
+
+    1       Нан       нан     NOUN
+    2-3     барбы     _       _
+    2       _         бар     ADJ
+    3       _         бы      PART
+    4       ?         ?       PUNCT
+
+
 ## Copula
 
-    Onun tutkusu       spor   arabalardı.
-   
+    Onun tutkusu       spor     arabalardı.
+    His  passion.SG3   sport's  car.PL.COP.PAST.SG3
+
+We can separate the copula using:
+
+    1    Onun         o        PRON
+    2    tutkusu      tutku    NOUN
+    3    spor         spor     NOUN
+    4-5  arabalardı   _        _
+    4    arabalar     araba    NOUN
+    5    dı           i        AUX
+    6    .            .        PUNCT
+
+or:
+
+    1    Onun         o        PRON
+    2    tutkusu      tutku    NOUN
+    3    spor         spor     NOUN
+    4-5  arabalardı   _        _
+    4    _            araba    NOUN
+    5    _            i        AUX
+    6    .            .        PUNCT
 
 ## Productive "derivations" (-DAGI, -NIKI, -LIK, -LI, -SIZ)
 
