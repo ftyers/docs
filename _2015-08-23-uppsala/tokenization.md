@@ -7,7 +7,6 @@ title:  'Uppsala Group on Tokenisation'
 
 _(Chris Manning, Francis Tyers, Hèctor Martínez Alonso, Huner Kaşıkara, Aibek Makazhanov)_
 
-
 # >1 token is 1 word
 
 Here we define a token as a space delimited sequence of characters.
@@ -88,6 +87,9 @@ or:
 
 ## Copula
 
+    Мен  студентпен.
+    I    student.COP.SG1 
+
     Onun tutkusu       spor     arabalardı.
     His  passion.SG3   sport's  car.PL.COP.PAST.SG3
 
@@ -111,25 +113,15 @@ or:
     5    _            i        AUX
     6    .            .        PUNCT
 
-## Productive "derivations" (-DAGI, -NIKI, -LIK, -LI, -SIZ)
+## Productive "derivations" (-DAGI, -NIKI, -LIK, -LI, -sIz)
+
+The -DAGI suffix has been described well [here](https://github.com/UniversalDependencies/docs/issues/125).
 
     Ben mavi  arabadakileri      gördum.
     I   blue  car.LOC.KI.PL.ACC  see.PAST.SG1
 
     Mavi arabadakiler        gazete         okuyor.
     Blue car.LOC.KI.PL.NOM   newspaper.ACC  read.PROG.3
-
-    Ben  adamınkini      gördum.
-    I    man.GEN.KI.ACC  see.PAST.SG1
-
-    Бир  палаталы     парламент
-    One  chamber.LI   parlament
-
-    Ол   хабарсыз  кетеді.
-    He   news.SIZ  vanished
-
-    Ben  ikinci  evsizleri         gördum.
-    I    second  house.SIZ.PL.ACC  see.PAST.SG1
 
 The idea for these is to allow, for example:
  
@@ -149,7 +141,37 @@ or:
     3     kileri          ki       X        NUMBER=PL|CASE=ACC
     4     gördum          gör      VERB     TENSE=PAST|NUMBER=SG|PERSON=1
 
-Depending on the language, recovering anything sensible for the sub-surface forms may be more or less difficult.
+Depending on the language, recovering anything sensible for the sub-surface forms 
+may be more or less difficult.
+
+The -NIKI suffix (or in Turkish -NInki) works similarly to the -DAGI suffix, but for 
+the genitive case.
+
+    Ben  adamınkini      gördum.
+    I    man.GEN.KI.ACC  see.PAST.SG1
+   "I saw the man's ones."   
+
+The -LI morpheme creates attributives from bare noun phrases:
+
+    Бир  палаталы     парламент
+    One  chamber.LI   parliament
+   "Unicameral parliament" (not "One-chamberly parliament")
+
+The -LIK morpheme works similarly to the -LI morpheme.
+
+The -sIz morpheme is sometimes called the abessive case, corresponding to the 
+preposition 'without'. It could also be compared with the -less derivational 
+morpheme in English. It creates attributive (like an adjective), adverbial or 
+substantive phrases from a bare noun. Sometimes words with -sIz in can be lexicalised,
+for example like "evsiz" (home.SIZ "homeless").
+
+    Ол   хабарсыз  кетеді.
+    He   news.SIZ  vanished
+    "He vanished without news."
+
+    Ben  ikinci  evsizleri         gördum.
+    I    second  house.SIZ.PL.ACC  see.PAST.SG1
+   "I see the 
 
 ## Causative
 
