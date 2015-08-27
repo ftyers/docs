@@ -55,23 +55,66 @@ In a wordlist for Vietnamese extracted from Wiktionary,[3](https://svn.code.sf.n
 
 ## Question word
 
-   (kaz) Нан бар ма?
-   (kir) Нан барбы?
-   (tat) Ипи бармы?
-   (tyv) Хлеб бар бе? 
-   (tur) Ekmek var mı?
-   (chv) Çăкăр пур-и?
+    (kaz) Нан бар ма?
+    (kir) Нан барбы?
+    (tat) Ипи бармы?
+    (tyv) Хлеб бар бе? 
+    (tur) Ekmek var mı?
+    (chv) Çăкăр пур-и?
 
-   "Bread existing [is] QST?", "Is there bread?"
+    "Bread existing [is] QST?", "Is there bread?"
 
 ## Copula
 
+    Onun tutkusu       spor   arabalardı.
    
 
 ## Productive "derivations" (-DAGI, -NIKI, -LIK, -LI, -SIZ)
 
+    Ben mavi  arabadakileri      gördum.
+    I   blue  car.LOC.KI.PL.ACC  see.PAST.SG1
 
+    Mavi arabadakiler        gazete         okuyor.
+    Blue car.LOC.KI.PL.NOM   newspaper.ACC  read.PROG.3
+
+    Ben  adamınkini      gördum.
+    I    man.GEN.KI.ACC  see.PAST.SG1
+
+    Бир  палаталы     парламент
+    One  chamber.LI   parlament
+
+    Ол   хабарсыз  кетеді.
+    He   news.SIZ  vanished
+
+    Ben  ikinci  evsizleri         gördum.
+    I    second  house.SIZ.PL.ACC  see.PAST.SG1
+
+The idea for these is to allow, for example:
+ 
+    0     Ben             Ben      PRON     NUMBER=SG|PERSON=1|CASE=NOM
+    1     mavi            mavi     ADJ      _
+    2-3   arabadakileri   _        _        _
+    2     _               araba    NOUN     CASE=LOC
+    3     _               ki       X        NUMBER=PL|CASE=ACC
+    4     gördum          gör      VERB     TENSE=PAST|NUMBER=SG|PERSON=1
+    
+or:
+ 
+    0     Ben             Ben      PRON     NUMBER=SG|PERSON=1|CASE=NOM
+    1     mavi            mavi     ADJ      _
+    2-3   arabadakileri   _        _        _
+    2     arabada         araba    NOUN     CASE=LOC
+    3     kileri          ki       X        NUMBER=PL|CASE=ACC
+    4     gördum          gör      VERB     TENSE=PAST|NUMBER=SG|PERSON=1
+
+Depending on the language, recovering anything sensible for the sub-surface forms may be more or less difficult.
 
 ## Causative
+
+    Babam           arabayı   Ali ustaya      yaptırmış
+    Father.SG1      car.ACC   Ali master.DAT  fix.CAUS.EVID
+
+The thoughts were for this construction to use a separate relation, for example `nmod:caus` or `nsubj:caus` for 
+the causative subject (causee) of a causative verb. 
 
 
