@@ -117,7 +117,7 @@ or:
 
 The -DAGI suffix has been described well [here](https://github.com/UniversalDependencies/docs/issues/125).
 
-    Ben mavi  arabadakileri      gördum.
+    Ben mavi  arabadakileri      gördüm.
     I   blue  car.LOC.KI.PL.ACC  see.PAST.SG1
     "I see the ones in the blue car."
 
@@ -132,7 +132,7 @@ The idea for these is to allow, for example:
     2-3   arabadakileri   _        _        _
     2     _               araba    NOUN     CASE=LOC
     3     _               ki       X        NUMBER=PL|CASE=ACC
-    4     gördum          gör      VERB     TENSE=PAST|NUMBER=SG|PERSON=1
+    4     gördüm          gör      VERB     TENSE=PAST|NUMBER=SG|PERSON=1
     
 or:
  
@@ -141,7 +141,7 @@ or:
     2-3   arabadakileri   _        _        _
     2     arabada         araba    NOUN     CASE=LOC
     3     kileri          ki       X        NUMBER=PL|CASE=ACC
-    4     gördum          gör      VERB     TENSE=PAST|NUMBER=SG|PERSON=1
+    4     gördüm          gör      VERB     TENSE=PAST|NUMBER=SG|PERSON=1
 
 Depending on the language, recovering anything sensible for the sub-surface forms 
 may be more or less difficult.
@@ -149,7 +149,7 @@ may be more or less difficult.
 The -NIKI suffix (or in Turkish -NInki) works similarly to the -DAGI suffix, but for 
 the genitive case.
 
-    Ben  adamınkini      gördum.
+    Ben  adamınkini      gördüm.
     I    man.GEN.KI.ACC  see.PAST.SG1
     "I saw the man's ones."   
 
@@ -171,12 +171,8 @@ for example like "evsiz" (home.SIZ "homeless").
     He   news.SIZ  vanished
     "He vanished without news."
 
-    Ben  ikinci  evsizleri         gördum.
-    I    second  house.SIZ.PL.ACC  see.PAST.SG1
-    "I see the ones without second homes."
-
-    kayıt         belgesizlere         2 bin       TL ceza kesilecek.
-    registration  document.SIZ.PL.DAT  2 thousand  TL fine cut.PASS.FUT.
+    Kayıt         belgesizlere         2 bin       TL ceza kesilecek.
+    Registration  document.SIZ.PL.DAT  2 thousand  TL fine cut.PASS.FUT.
     "Those without registration documents will be fined 2,000 TL"
 
 ## Causative
