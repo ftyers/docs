@@ -47,8 +47,13 @@ In a wordlist for Vietnamese extracted from Wiktionary,[3](https://svn.code.sf.n
 
 ### Turkish
 
-     Eve   geldi      misin?
-     Home  come.PAST  QST.SG2 ?
+     Eve   geliyor      musun?
+     Home  come.PROG    QST.SG2 ?
+
+But:
+
+     Eve   geldin         mi?
+     Home  come.PAST.SG2  QST?
 
 # 1 token is >1 word
 
