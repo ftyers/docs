@@ -175,6 +175,10 @@ for example like "evsiz" (home.SIZ "homeless").
     I    second  house.SIZ.PL.ACC  see.PAST.SG1
     "I see the ones without second homes."
 
+    kayıt         belgesizlere         2 bin       TL ceza kesilecek.
+    registration  document.SIZ.PL.DAT  2 thousand  TL fine cut.PASS.FUT.
+    "Those without registration documents will be fined 2,000 TL"
+
 ## Causative
 
     Babam           arabayı   Ali ustaya      yaptırmış
