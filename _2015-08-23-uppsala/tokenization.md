@@ -119,9 +119,11 @@ The -DAGI suffix has been described well [here](https://github.com/UniversalDepe
 
     Ben mavi  arabadakileri      gördum.
     I   blue  car.LOC.KI.PL.ACC  see.PAST.SG1
+    "I see the ones in the blue car."
 
     Mavi arabadakiler        gazete         okuyor.
     Blue car.LOC.KI.PL.NOM   newspaper.ACC  read.PROG.3
+    "The ones in the blue car read the newspaper."
 
 The idea for these is to allow, for example:
  
@@ -149,13 +151,13 @@ the genitive case.
 
     Ben  adamınkini      gördum.
     I    man.GEN.KI.ACC  see.PAST.SG1
-   "I saw the man's ones."   
+    "I saw the man's ones."   
 
 The -LI morpheme creates attributives from bare noun phrases:
 
     Бир  палаталы     парламент
     One  chamber.LI   parliament
-   "Unicameral parliament" (not "One-chamberly parliament")
+    "Unicameral parliament" (not "One-chamberly parliament")
 
 The -LIK morpheme works similarly to the -LI morpheme.
 
@@ -171,7 +173,7 @@ for example like "evsiz" (home.SIZ "homeless").
 
     Ben  ikinci  evsizleri         gördum.
     I    second  house.SIZ.PL.ACC  see.PAST.SG1
-   "I see the 
+    "I see the 
 
 ## Causative
 
