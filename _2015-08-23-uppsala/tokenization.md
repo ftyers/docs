@@ -173,7 +173,7 @@ for example like "evsiz" (home.SIZ "homeless").
 
     Ben  ikinci  evsizleri         gördum.
     I    second  house.SIZ.PL.ACC  see.PAST.SG1
-    "I see the 
+    "I see the ones without second homes."
 
 ## Causative
 
