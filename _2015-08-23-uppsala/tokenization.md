@@ -179,6 +179,7 @@ for example like "evsiz" (home.SIZ "homeless").
 
     Babam           arabayı   Ali ustaya      yaptırmış
     Father.SG1      car.ACC   Ali master.DAT  fix.CAUS.EVID
+    "My father made master Ali fix the car."
 
 The thoughts were for this construction to use a separate relation, for example `nmod:caus` or `nsubj:caus` for 
 the causative subject (causee) of a causative verb. 
